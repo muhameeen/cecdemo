@@ -15,10 +15,6 @@ const page = () => {
   return (
     <div style={box}>
       <h2 style={{ marginTop: 0 }}>Current Time (IST)</h2>
-      {!now ? (
-        <p>Loading...</p>
-      ) : (
-        <>
           <p style={{ fontSize: '32px', fontFamily: 'Courier New, monospace', margin: '10px 0' }}>
             {now.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata' })}
           </p>
