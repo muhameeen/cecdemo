@@ -27,7 +27,7 @@ const page = () => {
               year: 'numeric',
             })}
           </p>
-        </>
+       
       )}
     </div>
   )
