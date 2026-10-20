@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 
-const box = { border: '2px', backgroundColor: '#fff', padding: '12px', margin: '15px' }
+const box = { border: '2px', backgroundColor: '#ffff', padding: '12px', margin: '15px' }
 
 const page = () => {
   const [now, setNow] = useState(null)
